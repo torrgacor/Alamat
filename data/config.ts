@@ -7,7 +7,7 @@ export const pterodactylConfig = {
     nests: process.env.PTERODACTYL_PRIVATE_NESTS || "5",
     egg: process.env.PTERODACTYL_PRIVATE_EGG || "15",
     location: process.env.PTERODACTYL_PRIVATE_LOCATION || "1",
-  },
+  }, 
   public: {
     domain: process.env.PTERODACTYL_PUBLIC_DOMAIN || "",
     apiKey: process.env.PTERODACTYL_PUBLIC_API_KEY || "",

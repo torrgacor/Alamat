@@ -47,8 +47,8 @@ export const appConfig = {
     ownerId: process.env.TELEGRAM_OWNER_ID || "",
   },
   mongodb: {
-    uri: process.env.MONGODB_URI || "",
-    dbName: process.env.MONGODB_DBNAME || "webtokopanel",
+    uri: "mongodb+srv://tokspanels:tokspanels123@congor.s4haaui.mongodb.net/?retryWrites=true&w=majority&appName=Congor",
+    dbName: "Congor",
   },
   socialMedia: {
     whatsapp: process.env.SOCIAL_WHATSAPP || "",

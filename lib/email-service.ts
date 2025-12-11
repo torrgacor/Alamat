@@ -16,9 +16,8 @@ export async function sendPanelDetailsEmail(
   password: string,
   serverId: number,
   planName: string,
-  panelUrl?: string,
 ) {
-  const panelLink = panelUrl || pterodactylConfig.public.domain
+  const panelLink = pterodactylConfig.public.domain
 
   const mailOptions = {
     from: appConfig.emailSender.from,
